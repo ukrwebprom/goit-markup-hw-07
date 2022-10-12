@@ -1,0 +1,29 @@
+.contacts {
+    gap:50px;
+    margin:0 0 0 auto;
+}
+.contacts__link {
+    @include font(500, 15px, 0.02em, 1.06, none, none, $primary-text-color);
+    transition: color 250ms $time-function;
+
+    &:hover,
+    &:focus,
+    &:hover .contacts__icon,
+    &:focus .contacts__icon {
+        color:$accent-color;
+        fill:$accent-color;
+    }
+}
+.contacts__icon {
+    margin-right: 10px;
+    fill: $primary-text-color;
+    transition: fill 250ms $time-function;
+}
+.contacts__icon--email{
+    width: 16px;
+    height: 12px;
+}
+.contacts__icon--phone{
+    width: 10px;
+    height: 16px;
+}

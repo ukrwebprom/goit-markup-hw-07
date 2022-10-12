@@ -1,0 +1,22 @@
+.client-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    transition: border 250ms $time-function,
+              color 250ms $time-function;
+    width: 170px;
+    height: 92px;
+    &:hover {
+        border: 1px solid $accent-color;
+        color: $accent-color;
+    }
+}
+
+.client-card__icon{
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}

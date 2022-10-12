@@ -1,0 +1,24 @@
+.menu {
+    gap:50px;
+}
+
+.menu__link {
+    @include font(500, 14px, 0.02em, 1.14, none, none, $title-and-nav-text-color);
+    position:relative;
+    transition: color 250ms $time-function;
+
+    &:hover,
+    &:focus {
+        color:$accent-color;
+    }
+}
+.menu__link--current::after {
+        content: '';
+        position: absolute;
+        bottom: -32px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background-color: $accent-color;
+        border-radius: 2px;
+    }

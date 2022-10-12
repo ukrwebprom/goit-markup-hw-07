@@ -29,11 +29,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 footer {
   background-color: var(--background-header-footer-color);
@@ -41,7 +36,7 @@ footer {
   padding-bottom: 60px;
 }
 
-.hero {
+.hero1 {
   text-align: center;
   max-height: 600px;
   max-width: 1600px;
@@ -64,12 +59,6 @@ footer {
   width: 694px;
 }
 
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .header-flex {
   display: flex;
   align-items: center;
@@ -80,9 +69,7 @@ footer {
   align-items: flex-start;
   gap: var(--card-set-gap);
 }
-header {
-  border-bottom: 1px solid #ececec;
-}
+
 .filters {
   display:flex;
   justify-content: center;
@@ -95,16 +82,6 @@ header {
   padding-bottom: 94px;
 }
 
-.logo {
-  color: var(--accent-color);
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  margin-right: 94px;
-  display: block;
-}
 footer .logo {
   margin: 0 0 20px 0;
 }
@@ -225,33 +202,15 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.why-we {
-  padding: 94px 0 94px 0;
-}
+
 .why-we .icons{
   height:120px;
   background-color: var(--primary-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.why-we h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--title-and-nav-text-color);
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-}
 
-.why-we p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  margin: 0;
-}
+
 
 .why-we .item {
   flex-basis: 270px;
@@ -282,9 +241,7 @@ button:focus {
 .portfolio .item {
   flex-basis: 370px;
 }
-.what-we-do {
-  padding-bottom: 94px;
-}
+
 .what-we-do .item {
   position: relative;
 }
@@ -313,7 +270,6 @@ button:focus {
   padding-bottom: 94px;
 }
 
-.what-we-do h2,
 .who-we-are h2,
 .clients h2 {
   font-weight: 700;
@@ -342,7 +298,7 @@ button:focus {
   margin: 0 0 16px 0;
 }
 
-.team-member {
+.team-member2 {
   background-color: var(--background-color);
   box-shadow: var(--card-shadow);
   border-radius: 4px;
