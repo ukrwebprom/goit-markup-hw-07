@@ -12,7 +12,9 @@
         color:$accent-color;
     }
 }
-.menu__link--current::after {
+.menu__link--current{
+    color:$accent-color;
+    &::after {
         content: '';
         position: absolute;
         bottom: -32px;
@@ -22,3 +24,4 @@
         background-color: $accent-color;
         border-radius: 2px;
     }
+}
